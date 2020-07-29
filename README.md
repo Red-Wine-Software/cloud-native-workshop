@@ -1,10 +1,31 @@
 # Cloud Native Workshop
 
+[![Contribute](factory-contribute.svg)](https://codeready-che.apps.cluster-techtalk-9f28.techtalk-9f28.example.opentlc.com//factory?url=https://github.com//Red-Wine-Software/cloud-native-workshop/tree/ocp4.5-demo/)
+
 ## Overview
 
 This one day hands-on cloud-native workshops provides developers and introduction to cloud-natives applications
 and gives them an experience of building cloud-native applications using OpenShift, Eclipse Che7, Spring Boot,
 Quarkus, Vert.x and more.
+
+<img src="coolstore.png" width="350">
+
+During the various steps of the the workshop you will use CodeReady Workspaces, an online IDE that is running on Red Hat OpenShift to write, test and deploy these services:
+
+* **Catalog Service** exposes using a REST API content of a catalog stored in a relational database
+* **Inventory Service** exposes using a REST API the inventory stored in a relational database
+* **Gateway Service** calls the **Catalog Service** and **Inventory Service** in an efficient way
+* **WebUI Service** calls **Gateway Service** to retrieve all the informations.
+
+The outcome is an online store with a catalog of product items and an inventory of stock:
+
+![coolstore-website](./bookbag/workshop/content/images/coolstore-web.png)
+
+In addition to the application code, you will learn how to deploy the various services to OpenShift and how to use it to route the trafic to these services and monitor them.
+
+You will also have the opportunity to look at some optional steps such as debugging, continuous delivery, externalized configuration and more.
+
+Let's start the workshop with the discovery of OpenShift and CodeReady Workspaces.
 
 ## Agenda
 
