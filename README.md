@@ -1,6 +1,6 @@
 # Cloud Native Workshop
 
-[![Contribute](factory-contribute.svg)](https://codeready-che.apps.cluster-techtalk-9f28.techtalk-9f28.example.opentlc.com/factory?url=https://github.com//Red-Wine-Software/cloud-native-workshop/tree/ocp4.5-demo)
+[![Contribute](factory-contribute.svg)](https://codeready-che.apps.cluster-techtalk-9f28.techtalk-9f28.example.opentlc.com/factory?url=https://github.com/Red-Wine-Software/cloud-native-workshop/tree/ocp4.5-demo)
 
 ## Overview
 
